@@ -1,0 +1,292 @@
+/*contact.php*/
+.contactBox{border: 1px solid black;font-size:14px;height: 120px; width: 600px; padding:20px;margin:auto;}
+.contactRight{float:right;}
+.contactLeft{float:left;}
+.indent{padding-left:25px;color:black;font-size:14px;}
+.h2s{font-size: 16px;color:black;}
+.contactNoBox{font-size:14px;width:550px; margin:auto;}
+.h2Blue{color: #0A2447;font-size:14px;}
+.iconImage{}
+/*header.inc and general styles*/
+.clearfix{clear: both;}
+
+.uppertext{float: left;
+				width: 500px;
+				color: black;}
+
+.picturebox{float:right;
+				width: 440px;
+				height: 145px;}
+				
+.main-photo{float:right;
+					width:440px;
+					height: 290px;
+					
+					border: 1px solid black;}
+.map{width: 100%;
+		height: 80px;
+		z-index: -4;
+		float:left;}
+		
+.locationMap{z-index:-1;}
+		
+.location{float: left;
+			margin-top: -64px;
+			margin-left: 430px;
+			z-index: 1;}
+
+.phone{float:left;
+			margin-top: -57px;
+			margin-left: 650px;
+			color: #EEEEFF;
+			}
+	.phone a, .phone a:link, .phone a:visited {
+		color: #eeeeff;
+	}
+
+
+.link{float: right;
+		margin-right: 60px;
+		margin-top: -47px;
+		color:rgb(143,213,250);
+		}
+		
+.emailLink a, .emailLink a:link,.emailLink a:visited{color: rgb(10,36,71);}
+
+.popLink a, .popLink a:link, .popLink a:visted{color:rgb(41,175,221);}
+.askButton{margin-left: 195px;margin-right:195px;}
+		
+ul {color: black;
+		padding-left: 25px;
+		margin-top: 10px;}
+
+h2{color:rgb(10,36,71);
+	text-transform:uppercase;
+	}
+		
+h3{margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: rgb(10,36,71);}
+	
+		
+.boldTitle{font-weight: bold;
+			color: #ffffff;}
+			
+.underlinedTitle{text-transform: uppercase;
+						text-decoration: underline;
+							color:black;
+							font-weight: bold;
+							font-size:16px;
+						}
+			
+/*footer.inc*/
+.footer-contact-div{float:left;
+							margin-top: 30px;
+							padding-left: 560px;
+							color: #cccccc;}
+
+.footer-phone-div{float:right;
+							margin-top: 30px;
+							color: #cccccc;}
+		.footer-phone-div a, .footer-phone-div a:link, .footer-phone-div a:visited {
+			color: #cccccc;	
+		}
+							
+.line{
+		width: 520px;
+		align: center;
+		margin: auto;
+		}
+		
+.footer-nav{margin: auto;
+				width: 500px;
+				text-align: center;
+				text-transform: uppercase;
+				font-weight: bold;}
+				
+.footer-nav ul{list-style-type: none;
+					list-style-position: inside;
+					width: 600px;
+					margin: auto;
+					margin-left: -20px;
+					margin-top: 15px;
+					text-align: center;}
+
+.footer-nav li a{float:left;
+					margin-top: 5px;
+					margin-left: 20px;
+					color: white;
+					font-size: 11px;
+					text-align: center;
+					}
+.footer-nav li {
+					margin-top: 5px;
+					margin-left: 20px;
+					color: white;
+					font-size: 11px;
+					text-align: center;
+					}
+					
+.ourLink{font-size: 14px;
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		margin-top: 10px;}
+/*index2.php*/
+.featured-text{float:right;
+					text-align: left;
+					width: 270px;
+					height: 140px;}
+					
+.logo-div{float:left;
+				margin-top: 15px;}
+				
+
+ .contact{margin-top: 16px;padding-top: 5px;} 
+.browserIE .contact{margin-top: 9px;} 
+
+.boxTitle{text-align:center;
+			color:white;
+			font-size:14px;
+			margin-left:10px;
+			margin-right:10px;
+			margin-top:10px;
+			}
+.box{float: left;
+		border-width: 5px;
+		height: 300px;
+		width: 300px;
+		margin-top: 10px;}
+/*inner pages*/
+/*casestudy.php*/
+
+			
+.study{width: 100%;
+			background: rgb(176,176,176);
+			border: 1px solid black; }
+			
+.studyImage{float:left;
+					padding-top:20px;
+					padding-left: 20px;
+					padding-right:10px;}
+			
+.heading{color: navy;
+				text-transform: uppercase;
+				float:left;
+				font-size: 17px;
+				padding-top:10px;
+				margin-left: 0px;}	
+				
+.verticalGallery{margin-left:20px;
+					float:left;
+					padding-top: 50px; 
+					border: 1px solid black; 
+					width:911px;
+					margin-top: 10px; 
+					height: 17px;
+					margin-bottom:10px;}
+					
+.photo1{background-color:white;
+			height:58px;
+			width:60px;
+			margin-top:-45px;
+			margin-left:5px;
+			margin-right:5px;
+			float:left;}
+			
+.downloads{background-color:rgb('176,176,176');
+				 width: 912px; 
+				 margin-left:20px;
+				 clear:both;
+				 width: 260px;
+				 float:left;}
+				 
+.downloadItems{ }
+
+.item{color:black;
+						font-size:12px; 
+						margin-left: 5px;
+						margin-top: 5px;
+						float:left;
+						margin-right: 80px;}
+						
+/*caseStudies.php*/
+
+.smallStudyImage{float:left;
+					padding-top:10px;
+					padding-left: 10px;
+					padding-right:5px;
+					}
+					
+.smallStudy{width: 100%;
+			height: 170px;
+			background: rgb(176,176,176);
+			border: 1px solid black; }
+					
+.caseText{padding-top:10px; 
+				width:950px;
+				height:30px;}
+				
+.studyHeading{color:rgb(10,36,71);
+				text-transform: uppercase;
+				float:left;
+				font-size: 17px;
+				padding-top:5px;
+				margin-left: 0px;}
+.subHead{margin-left:0px;
+				color:white;
+				margin-top:0px;}
+				
+/*tooling.php*/
+.toolList{color:black; 
+			font-size:14px;
+
+			margin-left:195px;
+			margin-right:195px;
+			width:250px;}
+.structure{height:428px; width:655px;float:left;}
+
+.text{color:black;
+		font-size:14px;
+		margin-top:-10px;
+		}
+		
+.gallery{float:right; 
+			width:292px;
+			min-height:464px;
+			margin-top:-15px;}
+
+.galleryImage{background: white; 
+					width:84px; 
+					height:84px; 
+					margin-top: 10px; 
+					margin-left:5px; 
+					margin-right:5px;
+					float:left;
+					margin-bottom:5px;}
+
+.galleryTitle{color:white; padding-left: 50px;padding-top: 10px;}
+
+.galleryDownloads{width: 275px; 
+								min-height:85px;
+								margin-left: 10px;
+								margin-top:10px;
+								margin-bottom: 5px;
+								float:left;
+								font-size:12px;
+								text-align:right;
+								valign:bottom;}
+								
+.galleryDoc{margin-top: 5px;float:left;margin-bottom: 5px;color:white;text-transform:none;margin-left:5px; width: 100%; text-align: left;font-weight: 100;}
+
+.docImage{margin-right:5px;float:left;margin-top: -3px;}
+
+.docText{margin-top:1px;float:right;}
+
+.browserIE .docImage{margin-right:5px;float:left;margin-left: 115px;}
+
+.browserIE .docText{margin-top:1px;float:right;padding-right: 60px;}

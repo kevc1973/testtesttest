@@ -1,0 +1,195 @@
+
+
+#loginbox {
+	width: 60%;
+	background: #dddddd;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: black;
+	padding: 10px;
+	border: #333333 1px solid;
+}
+
+	.loginbox-label {
+		float: left;
+		width: 25%;
+		height: 25px;
+		line-height: 22px;
+		text-align: right;
+		padding-right: 20px;
+	}
+	
+	.loginbox-field {
+		float: right;
+		width: 70%;
+		height: 25px;
+	}
+	
+	
+#admin-bar {
+	width: 98%;
+	height: 26px;
+	margin: auto;
+	margin-bottom: 20px;
+	background: url('../images/menus/menubar-normal.png');
+}
+	.admin-icon {
+		float: left;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: -18px;
+	}
+	
+#admin-bar-cases {
+	width: 100%;
+	height: 26px;
+	margin: auto;
+	margin-bottom: 1px;
+	background: url('../images/menus/menubar-normal.png');
+}
+	.admin-cases-icon {
+		float: left;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: -18px;
+	}
+	
+#admin-bar-gallery {
+	width: 100%;
+	height: 26px;
+	margin: auto;
+	margin-bottom: 1px;
+	background: url('../images/menus/menubar-normal.png');
+}
+	.admin-gallery-icon {
+		float: right;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: -18px;
+	}
+	.admin-gallery-icon:hover {
+		background: url('../images/menus/menubar-hover.png') repeat-x 0px 18px;
+	}
+		
+	
+	
+#adminbar {
+	float: left;
+	width: 95%;
+	margin-left: 25px;
+	margin-top: 10px;
+	background: #999999;
+	height: 25px;
+}
+	#adminbar ul {
+		list-style: none;
+		font-family: Helvetica;
+		font-size: 12px;
+		float: left;
+		padding: 0px;
+		margin: 0px;
+	}
+	#adminbar li {
+		padding: 0px;
+		height: 25px;
+		line-height: 25px;
+		margin-top: 0px;
+		padding-left: 0px;
+		float: left;
+		padding-left: 20px;
+		padding-right: 20px;
+		border-right: #333333 1px solid;
+	}
+		#adminbar li:hover {
+			background: #dddddd;
+		}
+
+#admin-content {
+	width: 98%;
+	margin: auto;
+	background: #cccccc;
+	margin-top: 20px;
+}	
+	#admin-content h2 {
+		width: 100%;
+		background: url('../images/menus/menubar-hover.png') repeat-x;
+		height: 26px;
+		line-height: 25px;
+		color: #eeeeee;
+		font-size: 14px;
+		font-weight: 100;
+	}
+	#admin-content h2 a {
+		color: #333333;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	#admin-content h2 a:hover {
+		color: blue;
+		
+	}
+	
+	#admin-content .label {
+		float: left;
+		width: 20%;
+		margin-top: 10px;
+		line-height: 25px;
+		text-align: right;
+		padding-right: 10px;
+		color: black;
+		font-weight: 600;
+	}
+	#admin-content .field {
+		margin-top: 10px;
+		line-height: 25px;
+		float: right;
+		width: 75%;
+		text-align: left;
+		padding-right: 10px;
+		color: #333333;
+	}
+	
+
+
+
+.cases .hovering {
+	background-color: #555599;
+}
+
+.case-list-box-image {
+	float: left;
+	width: 80px;
+	height: 82px;
+	padding-top: 2px;
+	padding-bottom: 0px;
+}	
+.case-list-box-title {
+	float: left;
+	width: 340px;
+	margin-top: 35px;
+	margin-left: 10px;
+}
+.case-list-box-middle {
+	float: left;
+	width: 200px;
+	margin-top: 35px;
+}
+.case-list-box-modifier {
+	float: right;
+	text-align: right;
+	margin-top: 35px;
+	padding-left: 10px;
+}
+	.case-list-box-modifier a, .case-list-box-modifier a:visited, .case-list-box-modifier a:link {
+		color: #cccccc;
+		text-decoration: none;
+	}
+	.case-list-box-modifier a:hover {
+		color: white;
+	}
+
+#addimages {
+	width: 100%;
+	margin: auto;
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /inc/
+Disallow: /admin-*.php
